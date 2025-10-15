@@ -1,0 +1,54 @@
+/* Du-Track Finnish Theme */
+:root {
+  --blue: #003580;
+  --white: #ffffff;
+  --font-main: "Inter", "Poppins", "Helvetica Neue", sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--white);
+  color: var(--blue);
+  margin: 0;
+  padding: 0;
+}
+
+/* Buttons */
+.btn,
+button {
+  background: var(--blue);
+  color: var(--white);
+  border-radius: 12px;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  transition: all 0.2s ease;
+}
+.btn:hover,
+button:hover {
+  background: #0046a1;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--blue);
+  color: var(--white);
+}
+.navbar img.flag {
+  height: 20px;
+  margin-left: 10px;
+}
+
+/* Login Page */
+.login-container {
+  background: linear-gradient(135deg, #e8f0ff, #ffffff);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-box {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem 3rem;
+}
