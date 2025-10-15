@@ -4,8 +4,7 @@
 
 A comprehensive **Du-Track** built using **Django**, designed to manage student information, including enrollment, attendance, grades, and other administrative functionalities. This application is ideal for schools or educational institutions looking for a streamlined solution to manage student data.
 
-## **Table of Contents**
-- [Features
+
 
 ## **Project Structure**
 ```
